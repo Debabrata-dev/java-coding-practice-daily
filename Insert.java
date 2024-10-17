@@ -1,15 +1,16 @@
-public class Insert {
-    public static void main(String[] args) {
-        int[] arr={23,32,34,43,98,57,80};
-        int element=40;
-        int pos=3;
-      for(int i=arr.length-1;i>pos-1;i--){
-        arr[i]=arr[i-1];
-      }
-      arr[pos-1]=element;
-      for(int i=0;i<arr.length;i++){
-        System.out.println(arr[i]);
-      }
+public class Insert{
+    void play(){
+        System.out.println("playing");
     }
+public static void main(String[] args) {
+   int[] a={12,32,43,65,78};
+   int post=3;
+   int element=100;
+   for(int i=a.length-1;i>post-1;i--){
+   a[i]=a[i-1];
+   } 
+   a[post-1]=element;
+for(int j=0;j<a.length;j++){
+    System.out.print(a[j]+" ");
 }
- 
+}}

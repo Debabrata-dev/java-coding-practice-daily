@@ -1,16 +1,12 @@
-class Paly{
-    int num;
-    String nam;
-Paly(int num,String nam){
-this.num=num;
-this.nam=nam;
-}
-}
-
 public class A {
+    static int a;
+    static{
+        a=34;
+        System.out.println("Debabrata Das"+a);
+     
+    }
     public static void main(String[] args) {
-        Paly s1=new Paly(67,"Dhoni");
-        System.out.println(s1.num);
-       System.out.println(s1.nam);
+        System.out.println("You data exucted"+a);
+       
     }
 }

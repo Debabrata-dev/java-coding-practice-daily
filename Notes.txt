@@ -1,0 +1,7 @@
+Method overriding-
+1-It is the concept of sub class inheriting method to super class and change the method defination while keeping same the method declaration .
+2-To method overriding inheritance is manadator
+3-Method overriding is use to upgrade the exiting softwear funciton
+4-Method overriding is use to achive runtime polymerphism
+5-We cannot override staitc,private,final methods
+6-After overriding and upcasting we always latest implementation.

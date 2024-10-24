@@ -1,0 +1,6 @@
+Method overloading is the concept of in same class with same method name but different argument list .
+When We do method overloading it is amnadatory to have differnt argument
+We can vary argument list in 3 type 1-type of arrgument 2-Length of the argument 3-Sequence of the argument .
+Method overloading is use to perform compile time poly merphisim
+Method overloading is use to perform sametask with different arrgument .
+We can oveloading static privater andfinal method

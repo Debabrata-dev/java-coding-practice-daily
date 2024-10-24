@@ -1,0 +1,15 @@
+It is phenomenon of one constructor calling another constrouctor in know as constructor chaning
+in java we can do constructor chaning by 2 ways
+this() super()
+
+This():
+This() is used by call the constructor when constructor is present inthe same class
+This() should be usein first line of the constructor. 
+This() it wrriten implici ly by the Programmer.
+In constructor their is one this() statement .
+
+Super():
+Super() is used to call another constrouctor of the super class.
+Super() always be wrriten first line of the constructor .
+inside aconstructor we can use only one super key word.
+Super() statement wrriten implicity by the Programmer implici byt he comlpiler

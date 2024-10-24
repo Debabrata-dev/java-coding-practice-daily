@@ -1,0 +1,5 @@
+TYPE CASTING-PRIMTIVE,NON PRIMTIVE
+PRIMTIVE-1-Widnning,2-Narrowing
+NON PRIMTIVE-1.Upcasting,2.Downcasting
+
+BYTE-Short-int-Long-float-Double

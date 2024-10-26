@@ -1,0 +1,7 @@
+1-polymorphism is a concept of an object showing different kind behavour in its life time is know as polymorphism.
+2-their are 2 type of polumorphism
+  1-compiletime polymorphism
+  2-Runtime polyymorphism
+
+compiletime polymorphism we can do in method overloading
+Methodoverloading a class content multiple method in a same class havein different arrgument

@@ -1,0 +1,8 @@
+In genral, Abstraction is the concept of hiding method defintion and exposing methodeclartion . 
+in java we can perform the bstraction by 3 ways 1-Abstraction method
+                                                2-absraction class
+                                                3-Interface
+Abstraction their is no restriction on data member and memeber function.
+We an not create object for absract class
+we can access the property of Abstract class by inheritance.
+

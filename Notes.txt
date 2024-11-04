@@ -1,7 +1,13 @@
-Method overriding-
-1-It is the concept of sub class inheriting method to super class and change the method defination while keeping same the method declaration .
-2-To method overriding inheritance is manadator
-3-Method overriding is use to upgrade the exiting softwear funciton
-4-Method overriding is use to achive runtime polymerphism
-5-We cannot override staitc,private,final methods
-6-After overriding and upcasting we always latest implementation.
+*Method Overloading
+1-Method overloading is the concept of multipmethod in a class with the same name and different arrgument list .
+*Method Overriding
+1-Method Overriding is the concept of same Method in different class 
+2-it is possible when we have inehritance
+
+
+Polymorohism is a concept of an object showing different behaviour in its life time
+1-compile time Polymorohism
+2-run time Polymorohism
+
+Compile time Polymorohism it's happen only in methosd overloading
+Run time polymorhism it's happen in only in mathoroverriding .

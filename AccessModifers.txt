@@ -1,0 +1,6 @@
+Encasulation is the concept of binding releted data and behaviours into a single entity
+
+
+
+Access Modifer on a class or interface when ever we declar class or interface in java it can have the Access modifer 1-punlic
+2-Defult package

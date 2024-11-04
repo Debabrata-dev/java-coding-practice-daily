@@ -1,0 +1,10 @@
+Private:-
+Members with private access modifer can be access can be access in the same class
+Defult/package:-
+The program does not provide the access modifer the member is said to have default/package level access
+Member with default/package level access can only be accessed in the same package
+Protected:-
+Member with project access modifer can be access in the same package directly access outside the
+package in controlled by inheritance .
+Public-:
+Member with Public access modifer can be access directly from any wherr in the project

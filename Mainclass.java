@@ -1,19 +1,18 @@
-class Amazon{
-void payment(){
-    System.out.println("COD");
+package com.jspider.Access;
+import java.io.Serializable;
+public class Mainclass {
+private String Username;
+private String Password;
+public String getUsername() {
+	return Username;
 }
-void payment(long card){
-    System.out.println("Payment by card");
+public void setUsername(String username) {
+	Username = username;
 }
-void payment(String upi){
-System.out.println("payment upi or netbanking");
+public String getPassword() {
+	return Password;
 }
+public void setPassword(String password) {
+	Password = password;
 }
-public class Mainclass{
-    public static void main(String[] args) {
-        Amazon obj=new Amazon();
-        obj.payment();
-        obj.payment(8767564l);
-        obj.payment("Sbin");
-    }
 }

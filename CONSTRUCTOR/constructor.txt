@@ -1,0 +1,14 @@
+Constructor is a special datamember that is used to intilized non static datamber during object creation .
+Ever class in java in have defult Constructor
+A Constructor will always be same name as class name .
+A Constructor get executed in object creation .
+Their are 2 type of constructor 1-Defult constructor
+ 2-Userdefind Constructor 1-Zero arrgument constructor
+                          2-parameterzied constructor
+
+
+Constructor overloading
+In a class haveing multiple constructor haveing different arrgument list is konw as Construtor overloading .
+The arrgument can vary 3 way 1-Type of arrgument
+                             2-Length of arrgument
+                             3-Sequence of arrgument

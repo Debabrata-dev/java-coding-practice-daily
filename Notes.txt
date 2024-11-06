@@ -1,13 +1,21 @@
-*Method Overloading
-1-Method overloading is the concept of multipmethod in a class with the same name and different arrgument list .
-*Method Overriding
-1-Method Overriding is the concept of same Method in different class 
-2-it is possible when we have inehritance
+Inheritance
+It is a concept of a class aquaring the properties of anothr class .
+It is doing extends key words
+The concept of inhertance is know aa as-a relation shipe .
+Rules of Inheritance
+1-Super class canot access properties of sub class
+2-if a class is declar useing final keyword it cannot have subclass .
+3-The sub class cannot inherit the properties the following propertes of sub class 1-private
+                                                                                   2-static
+                                                                                   3-constructor
+                                                                                   4-Intlization block
+use of inhertance 1-code reuseabilty
+                  2-Softwear inhancement
+                  3-Code modification
+                  4-Genralization Vs Sepcialization
 
-
-Polymorohism is a concept of an object showing different behaviour in its life time
-1-compile time Polymorohism
-2-run time Polymorohism
-
-Compile time Polymorohism it's happen only in methosd overloading
-Run time polymorhism it's happen in only in mathoroverriding .
+Types of inhertance 1-Single level
+                    2-multilevel Inheritance
+                    3-herarcial inhertance
+                    4-multiple inhertance
+                    5-hybrid inhertance

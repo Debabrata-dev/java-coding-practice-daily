@@ -1,25 +1,24 @@
-class A{
-    void test(){
-        System.out.println("Test method call ---");
-    }
-}
-class B extends A{
+class Single{
     void play(){
-        System.out.println("Play method ---");
+        System.out.println("Playing football");
     }
 }
-class C extends B{
-    void eat(){
-        System.out.println("Eat method ---");
+class Display extends Single{
+    void run(){
+        System.out.println("Runing");
+    }
+}
+class Play extends Display{
+    void ride(){
+        System.out.println("Riding");
     }
 }
 
 public class Multilevel {
     public static void main(String[] args) {
-        C en=new C();
-        en.eat();
-        en.play();
-        en.test();
-        
+        Play p=new Play();
+        p.ride();
+        p.play();
+        p.run();
     }
 }

@@ -1,0 +1,17 @@
+IMP
+Exception is a unexpected event that occureat the run time and causues the program terminate Exception .
+
+in java Exception are 2 types 1-checked Exception 2-Unchcked Exception
+It is manadatory to handel Cchecked Exceptionat compile time i occure at compile time .
+Ex-1-cloneNotSupportExcption
+   2-IoExcption
+   3-SqlExcption 
+
+2-Unchcked Exception-This Exception are not identify by the compiler time
+It ia manadatory to handel
+1-Arthimetic
+2-NullPointer
+3-Classcalt Exception
+
+Note-Both checked and Unchcked Exception are come in the run time but identify of an Exception is in compile time .
+

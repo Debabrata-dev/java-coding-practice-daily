@@ -1,0 +1,3 @@
+It is the concept of assign the referance variable or object subclass to the referance variable of supercalss .
+Upcasting is implicty process that is supported java compiler.
+After Upcasting we cannot access the properties of the subclass.

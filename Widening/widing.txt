@@ -1,0 +1,3 @@
+it is the concept of assign a lower premitve type value to higher premitve datatype .
+widding is a implicity process that is support by the compiler.
+it dosnot cause lost of data .

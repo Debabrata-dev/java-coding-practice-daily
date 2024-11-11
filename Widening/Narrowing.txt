@@ -1,0 +1,6 @@
+1-Narrowing is the concept of assigning higher premitive type value to lower premitive datatype .
+2-Narrowing is explicty process that is not support by the java compiler .
+3-To perfrom Narrowing programmer have ot writen casting satatement .
+4-Narrowing may be lead to lost the data
+double p=2.6;
+int q=(int)p;

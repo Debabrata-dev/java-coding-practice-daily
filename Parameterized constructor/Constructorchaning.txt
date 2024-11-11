@@ -1,0 +1,11 @@
+It is a penomenon of one constructr call another constructr is know as construtor chaning
+We can do construtor chaning by 2 way this() super()
+This() is used by programer explicitly.
+This() statement always return the first line of the constructor .
+in a constructor we have one this() statement .
+This() statement should always be return explicitly by the programer .
+
+Super() this statement is to call the another constructor of the super class
+Super() is always written first line of the constructor
+Inside a constructor we have only one super of statement .
+Super() statement canbe return expilictyly by the programer and implictyly by the compiler.

@@ -1,0 +1,8 @@
+Method overloading it is the concept of multiple method haveing a class with same name and different arrgument list
+When we over loading it is madatory to vary the arrgument list
+It can vary by 3 way type of arrgument 1-Type of arrgument
+                                       2-length of arrgument
+                                       3-Sequence of arrgument
+method overloading is use to performe same ask with differnet arrgument .
+it is use to achive compile time polymorphism .
+We can overload satatic private and final methods.

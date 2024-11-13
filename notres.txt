@@ -1,0 +1,16 @@
+Super keyword is use to access the non static member of the sperclass .
+This keyword is use to access the  nonstatic member of the current class .
+JAR
+Jar file in here jar standes for java archive .
+The java file content compress class file .
+It is special file that transfrom one location to anthor location .
+
+A java been class is a exmple of 100% example encapsulatiion of perfect encapsulatiion .
+Object of java bean class use to transfrom the data from one layer to anthor layer that 
+their call data transfor object .
+
+java bean class is previousely know as pojo class
+
+All the data member must be declar as private access modiffer We can access all the private member useing gate and setter method .
+
+Java bean class mustly have a defult construtor .

@@ -1,19 +1,18 @@
-class Demo{
-void test(int a){
-System.out.println("test haveing int dt"+a);
+class Alpha{
+   int x=10;
+
 }
-void test(double a){
-    System.out.println("test haveing double dt"+a);
+class Beta extends Alpha{
+    int x=200;
+    void play(){
+        System.out.println(super.x);//super is use to super class object
+        System.out.println(this.x);//this is use to access the non static
+        System.out.println(x);
+    }
 }
-void test(String a){
-    System.out.println("test haveing String dt"+a);
-}
-}
-public class Mainclass {
+public class Mainclass{
     public static void main(String[] args) {
-      Demo d=new Demo();
-        d.test(0);
-        d.test(6.7);
-        d.test("jack");
+        Beta b=new Beta();
+        b.play();
     }
 }

@@ -1,0 +1,107 @@
+.Class
+A java class is defination block which store the behaviout and propertis of an object .
+
+.Object
+An object is real world entity thst has its own meaning and states .
+An object is a copy of the class which content an all the non static data member .
+The non-static member are loaded to the memory when we create an object .
+
+.Refrance Varibale-
+Student obj=new Student();
+(Non-           (Constructor)
+premitive)
+Any variable that is declare use in non-primtive data type is know as Refrance variable .
+We can create a Refrance variable useing new keyword .
+A Refrance variable can declare useing class name, Interfce name, Enum name .
+A Refrance variable either store the address or the null vaule .
+
+.Null
+Null is keyword which meaning is nothing .
+It is defult value of the java for all the Refrance variable .
+When a Refrance assign a null value it is called null Refrance .
+When we try to access a null Refrance it gives us a error called null Refrance error .
+
+
+Deep copy-
+Multiple Refrance variable of the same class with each Refrance variable assign a differnet object is know ass deep copy
+If we change one Refrance variable it not affect the other Refrance variable
+
+
+Shallow Copy-
+Multiple Refrance variable of the same class assign a common object it is know as Shallow copy .
+In case the changes made by one Refrance will affect the other Refrance variable .
+
+MEMORY MANGEMENT
+Memory Mangment in java end to end memory Mangment done by jvm at runtime .
+The JVM makes of the following area classarea,heap,stack,methodarea .
+
+
+classarea
+All the static member are allocate to this area
+All the static member are loaded by the classloader.
+All static member are allocate to the memory during classloding
+All the static member load to the class once.
+This aree is kow ass static poll .
+
+Heap Area-
+All the non static member are allocate here .
+All non static member are loading to heap area .
+All the non static are allocate to the memory during object creation .
+In heap area the object are not store sequencially .
+
+Heap Area-
+All the non static member are allocate here .
+all the non static member are load to heap area .
+All the non-static member are loaded to the heap area during object creation .
+in heap area the object are not store sequencially .
+
+Method area 
+Al the memthod defination are store here .
+
+Stack area-
+All the method exeution in java done the stack area .
+Stacka area fllow lifo .
+ALl the variable area allocate memory to stack area .
+Stack area is know as execution engine .
+
+Stack Area
+All the method execution in java are done the stack area .
+This is know as Excution engine .
+Stack area floow lifo .
+
+Static Block-
+Static blocks are used to initlized static data member .
+Static block are directly writen the class body  useing static keyword .
+In asingle static block we can initlized Multiple static datamember .
+In asingle class we can declar multiplle static block .
+Static block of a class are execut sequencially .
+
+
+Non static
+It is use to initlized non static datamember .
+Non-static block are declar directly in the class body without useing static keyword .
+In a single non static block we declare multiple nonstatic datamember .
+In a class we can delar multiple non static datamember which is execut sequencially .
+nonstatic block are execut by jvm during object creation .
+
+Constructor 
+Constructor are the special kind of datamember function that are use to intilized non static datamember during object creation .
+Every class in java has a constructor is know as defult constructor .
+A constructor will always same name as class name .
+A constructor get execut during object creation .
+In java constructor are 2 type 1-defult constructor
+  2user defind constructor -1-zero argument
+                            2-parametrized constructor
+
+
+Zero argument constructor is create by the programmer .
+In Zero arrgumment constructor we can initlized the nonstatic data inside the constructor body .
+We cannot pass the arrgumment in the zero arrgumment constructor .
+
+parametrized constructor
+The parametrized constructor is created by the programmer 
+In the parametrized constructor we can initlized nonstatic datamember with the help of arrgumment .
+
+Constructor Overloading 
+Constructor Overloading is the concept in which multiple constructor is create in a single class with different arrgumment
+is know as constructor Overloading .

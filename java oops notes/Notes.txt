@@ -12,7 +12,7 @@ Student obj=new Student();
 premitive)
 Any variable that is declare use in non-primtive data type is know as Refrance variable .
 We can create a Refrance variable useing new keyword .
-A Refrance variable can declare useing class name, Interfce name, Enum name .
+A Refrance variable can declare useing class name, Interface name, Enum name .
 A Refrance variable either store the address or the null vaule .
 
 .Null
@@ -56,7 +56,7 @@ All the non-static member are loaded to the heap area during object creation .
 in heap area the object are not store sequencially .
 
 Method area 
-Al the memthod defination are store here .
+Al the method defination are store here .
 
 Stack area-
 All the method exeution in java done the stack area .
@@ -105,3 +105,172 @@ In the parametrized constructor we can initlized nonstatic datamember with the h
 Constructor Overloading 
 Constructor Overloading is the concept in which multiple constructor is create in a single class with different arrgumment
 is know as constructor Overloading .
+
+INHERITANCE-
+INHERITANCE is the concept a class aquaring the propertis of another class is know as inheritance .
+inheritance is done useing the propertis of extends key word .
+The concept of inheritance is also know I&A relationship .
+
+Inheritance rulls-
+the super class cannot access propeties of sub class .
+If super class is final we cannot access the propeties .
+The subclass cannot inherit the superclass following propertis 1-private 2-static 3-constructor 4-intilization block.
+
+Use of inheritance
+1-Code reuseablity
+2-Softwear inhancement
+3-Code modification 
+4-Genralization modification .
+
+Type of inheritance 1-Single Level inheritance 2-Multi level inheritance 3-Hearchialinheritance 4-Multiple inheritance 5-Hybrid inheritance
+Single Inheritance
+In this form of inheritance the propertis of superclass is extends by one class.
+Multi level inheritance-
+A super class having more then one subclass in different level .
+A superclass haveing multiple subclass of same level .
+Hearchial Inheritance-
+in this form of inheritance the propertis a superclass more then one subclass in the samelevel .
+Hybrid Inheritance
+It is the combination other of from of inheritance .
+Multiple Inheritance
+
+
+
+
+
+
+
+Constructor chaning
+It is the phenomena of one constructor called the propertis of another constructor .
+In java we can perform constructor chaning in 2 ways .
+Using this() statement .
+Using super() statement .
+
+This() 
+it is use by the programmer to call the another constructor of the same class .
+This() statement should always be return int he first line of the constructor .
+In a constructor we can write only one constructor .
+This of statement will allways be return expilcitly by the programmer .
+
+super()
+Super() statement is used to call another constructor of the superclass .
+Super() always be writen the first line of the constructor .
+Inside a constructor we can write only one super statement .
+Super() if the programmer froget to writen then the implictly by the compiler .
+
+
+UPCASTING -
+It is the concept of assign the Refrance variable or object of subclass to the Refrance variable of superclass .
+it is implictly process that is supported by the compiler .
+Affter UPCASTING we cannot access the propertis of subclass .
+
+DownCasting-
+DownCasting is the concept of assigning the Refrance variable of the superclass to Refrance variable of the subclass .
+DownCasting is the expilcitly process that is not supported by the compiler .
+To perform DownCasting programmer has to provied the casting statement .
+Before down casting UPCASTING is mandatory .
+After down casting e can access both super class and subclass .
+
+Method overloading-
+Method overloading is the concept of assigning multiple method in a class same name and differnt arrgument list.
+when we overloading it is mandatory to vary the arrgument list .
+we can vary the arrgument list in 3 ways 1-type of the arrgument
+                                        2-Length of the arrgument 
+                                        3-sequenc of the arrgument
+
+Method overloading is use to perform same taskin different way .
+methodoverloading is use to acchive compile time polymortshim .
+
+
+Method Overriding
+It is the concept of subclass inheriting the method from the superclass and changing method defination from the superclass
+while keeping same the method declartion .
+To perform method Overriding inheritance is mandatory .
+It is use to upgrade the exting Softwear functionality .
+it is use ot achive runtime polymorphism .
+
+
+Constructor Overloading
+1-In a class content multilpe constructor with different arrgument list  is know as constructor over loading  .
+2-Every class in java will have a constructor 
+3-the constructor name is allways same as class name .
+4-A constructor will get executed during object creation .
+
+
+Constructor
+constructor are the special kind of member in a class are use to intiliz non static data member during object creation .
+Ever java class will have a constructor .
+A constructor will always same name as class name .
+
+HAS_A
+It is the concept where one class is act as a contener object of a another class .
+Has-A relationship is 2 type 1-composition 2-Aggrigation
+composition- composition in which the content object can not exit with out the contener .
+1-car has enginee
+2-college has a department
+3-Mobile has cammera
+Aggrigation- It is a weak from of assocatin where the contain object can exit without the container .
+1-car has a driver
+2-Mobile has a cim card
+
+Method binding-
+when ever the method is called by jvm has to perform method binding .
+Method binding is the process joing the method defination and method declartion before loading into the stack area .
+
+
+polymorphism
+It is a concept of an object showing differnt behaviour in it s life time 
+it is 2 type compile time Second runtime
+Compile time
+It support Mahod overloading .
+In compile polymorphism the method binidng decession are taken by the compiler at compile time .
+It is also know as static polymorphism .
+
+runtime polymorphism
+It support method overriding 
+In runtime polymorphism the method binidng decession are taken by jvm at runtime .
+It is also know as dynamic polymorphism.
+As the method decession are taken at runtime it is know as later binding .
+
+Abstraction
+In genral abstract is the concept of hiding implemention details and exposing the functionality .
+In java Abstraction useing 1-abstract method 
+                          2-abstract class
+                          3-Interface 
+
+Abstraction method
+Abstraction method are declar with abstract keyword .
+We can declar abstract method inside an abstract class or Interface .
+abstract cannot be static,private and final .
+
+
+Why abstract class is allways an particial Abstraction
+An abstract class content a abstract method and concrit method .
+Every other class even an abstrct class haveing an constructor .
+It will content the inherit concrit method of class object .
+
+Interface 
+An Interface is declar with the key word Interface .
+Inside an Interface all the member should be public staic final .
+All the member function will be public and final
+we cannot create an object for a Interface directly .
+we have to create an implemention class and overriding the abstract method .
+
+Encapsulation
+Encapsulation is the concept of binding related data and behaviour into single entity .
+In java a class is a Encapsulation of datamember and member function .
+A package in Encapsulation of java file.
+A jar file is a Encapsulation of package .
+The main aim of Encapsulation is to provied security .
+
+Access-modifer
+Access modifer can be use the programmer restrict the visibilty of the member inside a class .
+In java the member can be private defult protected public .
+
+Defult- When programmer dosnot provied any access modifer then the member should by said to defult access modifer 
+it can access in the class and in the package
+
+protected it can access in the class, int he package and out side the package by inheritance .
+public class their is no restriction on the public class .
+
+java bean class is 100 example of an inheriatance 

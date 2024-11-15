@@ -1,1 +1,1 @@
-int price=90;
+     Sample s1=new Sample(2); 

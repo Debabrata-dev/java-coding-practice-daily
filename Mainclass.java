@@ -1,18 +1,23 @@
-class Alpha{
-   int x=10;
+//256314->2+5+6+3+1+4->21->3
 
-}
-class Beta extends Alpha{
-    int x=200;
-    void play(){
-        System.out.println(super.x);//super is use to super class object
-        System.out.println(this.x);//this is use to access the non static
-        System.out.println(x);
+import java.util.Scanner;
+
+public class Mainclass {
+    static int sumOfDigits(int n){
+        int rem=0,sum=0;
+        while(n!=0){
+            rem=n%10;
+            sum=sum+rem;
+            n=n/10;
+        }
+        return sum;
     }
-}
-public class Mainclass{
-    public static void main(String[] args) {
-        Beta b=new Beta();
-        b.play();
-    }
+   public static void main(String[] args) {
+  Scanner ip=new Scanner(System.in);
+  int n=ip.nextInt();
+  while(n>9){
+    n=sumOfDigits(n);
+  }
+  System.out.println(n);
+   } 
 }

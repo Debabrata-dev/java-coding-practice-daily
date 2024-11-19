@@ -1,0 +1,11 @@
+Java File handeling is done useing usaque operation system .
+How to creat a file 
+Import Java.io.File;
+File obj=new File("C:/FileIo");
+if(flage==false){
+    obj.mkdir();
+    system.out.println("Folder created);
+}
+else{
+    S.o.p("Already exist);
+}

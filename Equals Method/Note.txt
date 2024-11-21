@@ -1,0 +1,1 @@
+Equal() it work same double equal work 

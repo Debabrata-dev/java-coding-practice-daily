@@ -1,0 +1,10 @@
+Final vs Finally vs Finalize
+Final - Final Variable(cannot be change)
+Mehod cannot be override
+Class cannot be extends
+
+Finally
+It is use in try catch block but Finally keyword is use 100% excution
+
+Finalize()-The java Finalize mehode of object is a 
+method that the garbage collector always calls just before destroying .

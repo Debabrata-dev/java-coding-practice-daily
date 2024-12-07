@@ -1,0 +1,32 @@
+package com.jspider.arraylist;
+
+import java.util.ArrayList;
+
+public class Mainclass6 {
+
+	public static void main(String[] args) {
+		System.out.println("Main method Started ");
+		
+		ArrayList l2=new ArrayList();
+		
+		l2.add("Mango");
+		l2.add("10");
+		l2.add("Apple");
+		l2.add(20);
+		l2.add("Graphes");
+		l2.add(1.2);
+		l2.add("Orange");
+		l2.add(2.1);
+	    
+		System.out.println("Toatal element:"+l2.size());
+		System.out.println(l2);
+		
+		Object[] obj= l2.toArray();// ArrayList element represent as array of (object) type
+		
+		for(int i=0;i<obj.length;i++) {
+			System.out.println(obj[i]);
+		}
+
+	}
+
+}

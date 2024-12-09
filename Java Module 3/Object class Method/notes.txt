@@ -1,0 +1,7 @@
+//toString(),
+The defult implemention of toString() method provide string represtion of the object .
+public String toString();
+The string represtion content 3 elemetn and 1-fullQualify class 2-@ 3-Hexadecimal number
+
+//hasCode()
+The defult represtion of hasCode() provide the unique integervalue id given by the jvm .

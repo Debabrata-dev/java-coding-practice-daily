@@ -1,0 +1,5 @@
+the defult implemention of the toString() method provide string represtion of object .
+The string represtion content 3element 1-Fullyqualifyclassname 2-@ 3-Hexadecimal
+When ever the programmer print the refrance variable directly jvm internaly calltoString().
+
+2hastcode()

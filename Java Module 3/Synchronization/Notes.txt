@@ -1,0 +1,10 @@
+it is the concept of a method /resource to make threat safe .
+we can perform syncrolization in java useing useing the keyword syncrolized
+if a method is declar with synchronized it can only be accessby one at time .
+//threat safe 
+If all the method of a class is synchronized then it is called threat safe class.
+
+threat sleep is a static method present in threat class .
+The programer can use to sleep meethod to pause the program for certain time period .
+sleep() is risky and may cause interpted excption .
+

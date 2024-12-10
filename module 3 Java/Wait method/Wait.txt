@@ -1,0 +1,17 @@
+The wait method is use to pause the program execution for certain time interval .
+It is internaly called by jvm to pause the program execution .
+All the 3 version wait method are  final and cannot br overriden.
+The jvm internally notify informtion a particuar therat about occurance of an event .
+The jvm internally used notify all method to infrom all the therat about the occurance of a event .
+
+Grabage Collector:
+It is a thred based mechanism that moneyiter the object in the heap area .
+The garbage collector is responsible for destory the unwanted object that present in the heap area .
+before the Grabage collector destory an object it will internaly call finallyzed method .
+The programer can explicitly call the garabage collector by writting syystem.gc.
+
+Finallyzed:
+procted void finallyzed() throws Throwable it is a procted method of object class that contents clean up or closer code. 
+
+CLONE:-
+procted 

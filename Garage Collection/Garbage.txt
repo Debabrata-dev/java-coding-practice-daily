@@ -1,0 +1,13 @@
+1-Introduction
+It is a part of jvm it is use  destory unused object present in the heap area .
+2-The Way to make an object eligible for garbage collector .
+        1-nullying the refrance varibale .
+        2-reassign the refrance variable .
+        3-Object created inside a method .
+3-The method for requesting jvm to run garbage collector .
+             1.System.gc()
+             2.Runtime gc()
+           
+4-Finalization           
+
+

@@ -1,0 +1,14 @@
+the defult implemetion of to string method provide the string represtion of object class.
+the string represtion content 3 element 1-hexadecimal number 2-@ 3-fuklyqually class name .
+if necasser program can overide to string method it gives the string value of its own choice .
+when ever program print the rerance varibale jvm directly called the toString();
+
+hasCode().
+The defult represtion of hascode() method return the unique integer id provide by jvm .
+the unqiue integer id is decimal represtion of the heax decimal sudeo address .
+if necasser program can overide the hascode() and provide the integer value of his own choice .
+
+Equale();
+If the programer wants to cammper between object program can use equalas() .
+Equale method act simallar to double equals .
+public boolean equal(object obj);

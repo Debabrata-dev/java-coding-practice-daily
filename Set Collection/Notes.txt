@@ -1,0 +1,10 @@
+Set is atype of collection that have not allow dublicate elements .
+Set is not index based.
+Set is a unoreder collection .
+Set alllow null but not allow dublicate elements .
+
+Iterbale-->collection-->Set-->Hasset-->Linked Hasset
+                           -->Sorted Set-->Navigatable set-->Tree set
+Haset give a element a random partion
+LinkedHashSet gives the element in a order
+Tree set give use out put in a sorted order .

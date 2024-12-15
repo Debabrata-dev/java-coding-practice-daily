@@ -1,0 +1,47 @@
+Map-->SotedMap-->Navigatable Map-->Iner Map(Sorted order)
+   -->HasTable
+   -->HasMap-->LinkHasMap(order)
+
+HasTable-:
+1-Showing key values pair .
+2-Key must be unique but values can be dublicate .
+3-Value is fixed based on key .
+4-values is map with key .
+5-A pair of values is know as entity .
+
+map-
+1-it is apart of collection fram work libray which is stor in a key values pair .
+2-The values is associated in the key and store in a map .
+The method of map innterface are
+
+1-Public object put(objectkey,objectvalue);
+This method use to take enity in the map by associated the spacify values to spacify key .
+
+if key is already exit it repacle the values .
+
+2-public object get(Object key);
+This method useto accesst the values or we can say we use this method to return the values if the key is in present or not found in the map then it gives use
+return use to null .
+
+3-public object remove(object key);
+This method is use to remove a enityt from the map based on specific key .
+
+4-public boolean containeakey(object key)
+This method is use to return true ifthe spacify key is present int he map or not present in the map .
+if it present in the map it give use to true or other wise it give use to false .
+
+5-public boolean containekey(object values);
+This method use to reutun true if the specificed values found in the map other wise it gives us to false .
+
+6-public int keyset()
+this method return set view of the all the keys present in the map 
+
+public object put(object key)//This is use to add 
+public object get(object key)//this method is use to get values from the entity
+public object remove(object key)//this is use to gives to values 
+public boolean containeakey(object key)//true
+public boolean containeavalue(object values)// this is use to give true or false if it is present
+public int keyset()//This is use to gives the key it give use to key in a set.
+public collection values()//this method use to give use value to a set .
+public int size()-
+public boolean isEmpty()-

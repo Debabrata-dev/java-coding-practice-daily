@@ -1,23 +1,5 @@
-Exception are unwanted or unexcpted event that occure at the runtime and terminate the program ablnormaly .
-In java excption are classify in to type 1-Checked excption
-  2-unchecked excption 
+the defult implemention of the toString() method provide string represtion of object .
+The string represtion content 3element 1-Fullyqualifyclassname 2-@ 3-Hexadecimal
+When ever the programmer print the refrance variable directly jvm internaly calltoString().
 
-Checked Exception -This excption are idenitify by the compiler at compile time but it occurs at in run time 
-It is manadatory to handel checked excption .
-1-clonenotsupport excption
-2-ioexcption
-3-sqlexcption
-
-unchecked Exception-This excption are not idenitify by the compiler at compile time .
-it is not manadatory to handel unchecked excption 1-arithmetic
-2-nulpointer
-3-class castexcption
-
-*EXCEPTION HIERARCH*
-             THROWABLE 
-EXCEPTION                ERROR  
-1-RUNTIME EXCEPTION      1-STACKOVERFLOWERROR 
-2-IOEXCPTION             2-OUTOFMEMORYERROR
-3-SQLEXCPTION            3-IOERROR
-4-INTERRUPTEDEXCEPTION   4-LINKAGERROR 
-5-CLASSNOTFOUNDEXCEPTION
+2hastcode()

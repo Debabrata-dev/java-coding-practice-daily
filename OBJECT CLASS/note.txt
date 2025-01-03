@@ -1,0 +1,4 @@
+OBJECT CLASS
+1-It is an inbuilt class present in javalibray .
+2-It is present inside the java lang package .
+3-it is

@@ -1,0 +1,35 @@
+Threat:-
+It is alight weight process that is application or program when it is currently under excution and consume less amount of memory .
+it helps the programer to do multitasking .
+
+it help the programer to do multitasking .
+Defult Threat in java:=
+when ever the java program going to excut the jvm internaly create 3 threats
+1-main threats
+2-garbage colllectior
+3-Threat excuter .
+main threat :-
+It is responsible for excut the program wrriten by the programer .
+garbage colllectior:-
+It is responsible for clean up activity in the heap area .
+Threat excuter:
+It isresponsible to manages the life cycle of the threat .
+
+garbage colllectior & Threat excuter:-
+The garbage colllectior and threat excuter is know as demon threat because it low priority threat which are not 
+under the programmer control .
+
+we can create a threat in java in 2 ways 1-java Lang threat class by extending
+                                         2-by imlementing 'java.lang.Runableinterface'
+
+1st process extending:
+1-First extending threat class
+2-create a override run() method from thread class .
+3-create an object of traget class 
+4-call start() mehtod to begian thread execution .
+
+2 By implementing java.runable runable interface
+1-create a class that implementing runable interface 
+2-create run() mehtod from runable interface 
+3-create an object of traget class 
+4-create an object of threat class by passing the interface of target class

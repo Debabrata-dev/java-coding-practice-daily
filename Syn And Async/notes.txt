@@ -1,0 +1,23 @@
+1-It is a concept of makeing resource threat safe .
+2-We can perforom scnronization useing syncronized key word .
+3-When a resourece is declare useing scynronized key it is access only by one at time.hence it is calll syncronization
+
+Threat:-
+It is light weight process aprogramm or application current under going and consume less amount cpu memory
+it help the programer to do multitasking .
+
+Threat in java program begain excution the jvm internal creat the following 3 threats 1-MainThreat 2-Garbage collcetor 3-Thread schudular
+
+MainThreat-it is responsible to excut the program the code wrriten by the programer 
+Garbage collector is responsble the cleanup activity in the heap area 
+Threat Shedular-it is manager that controle the life cycle in the all threat in java .
+
+In java we can create the method in two way
+1-Java.lang.Threat.class by extending
+2-By implemting "java lang Runnable interface 
+
+Thread Sleep:-
+1-it is a static present in thrreat class
+2-The programmer can make us eof Sleep method use of Sleep method to push excution for cutrtime interval .
+3-it risky method and may cause interapted excption .
+

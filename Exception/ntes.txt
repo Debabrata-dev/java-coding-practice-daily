@@ -1,0 +1,17 @@
+Defualt handeler it is a inbuilt mechanisim that is called by jvm when programer failto handele the an exception .
+The defualt handeler will perform the following things 1-stck trace
+2-stope excution
+3-display the detils.
+
+Throws:-
+1-throws keyword is use to propaget the exception to handel by calling method .
+2-it is alwayes be wrriten by the method declaration .
+3-we can declare mutilple exception method by throws keyword .
+
+printstack trace:-
+it is a predfind method preset in the throw able class and it is present in all exception object .
+These method use by the programmer to perform exception diogonouist .
+These method provide following element 1-stack trace
+                                       2-print the msg of exception if avlabile
+                                       3-name of the excption .
+getMessage():-This method is return the value that content the exception message .

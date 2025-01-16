@@ -1,73 +1,22 @@
-1:(What is Collection ) ?
-1-Rpresting a group of object as a single entite knowas collection .It can be same type of maybe different type .
-2-In collection we can perfrom addintion of the element division of the element and updating the element .
-3-The collection allow to store matain and manage the element .
-Ex1-Collection of mails
-2-collection of product
+1-Threat it is light weight process that application or program when it under excution and consume 
+less amount of cpu memory it help us the programmer to do multitasking .
 
-2:(What is collection framework libray) ?
-1-Collection framwork libray it is a set of interface or predefind classes .
-2-All the collection framework implemention classes implement the standad datastructure .
-3-The collection framwork libray is build on abstrction princple .
-Where we can use the function of collection framework with out knowing the implement details .
-4-The complet collection framework libray is present in the java util package .
+Threat:-
+It help the programmer do multitasking.
 
-3:(Important interface in collection) ?
-  1.Iterable . 
-  2.collection .
-  3.List--->1-ArrayList,2-Vector,3-Linkedlist .
-  4.set--->1-Hashset,2-sorted set 3-linked hash set,4-navigatabke set 5-treeset .
-  5.queue--->1-Deque,2-Priorety Queue .
+Defualt Threat in java:
+When ever the java program begin excution the jvm in ternally create 3 threats 1-Main Threat 2-Garbage collector 3-Threat Schedular
+1-Main Threat:-
+it responsible to excute the programm writen by the programmer .
+Garbage collector, Threat Schedular
+It is know as demon threat which are not under control of the programmer .
 
-4:ArrayList:-
-1-The arraylist class is a implemented with a resizeable array datastructure .
-2-This will take moretime and consume more memory since the growing of arraylist .
-3-The random access time of the any element in an array is same .
-4-Hence array list is more preferance when ever we have situation element we have to acces an element .
-5-The array list is not prefarble when ever we are performing the insertion & deletion operation, 
-both the operation consume time in the sifting the element . 
+Createing threat in java 1-java lang threat class by extending 
+2-Java by implementing runable interface .
 
-5:Vector:-
-1-It is a implement class of list interface .
-2-Vector implements 3 maker interface interface  1-serlizable 2-colenable 3-Random access.
-3-The vector class is implement useing resizeable array .
-4-defulat capacity is 10 .
-5-The vector grow by double the capacity .
-6-implemention wise array list is a copy of vector class but the vector method are syncronized .
-7-Hence vector is athreat safe class which allow only one threat to use .
-
-6:Linked list:-
-1-linked list is a implemention class of list interface .
-2-linkedlist is only implement 2 inrerface serlizable  cloneable .
-3-Linked list class is implemented by using double linked list datastructure .
-4-It doesnot have any defult cappacity an it grows one node at a time .
-5-The linked list class show 2 behavour and 2 properties .
-    1-list properties
-    2-Deque properties
-6-it overload constructor 1-No parameter constructor 2-Collection type parameter constructor .
-7,8
-
-7:Queue:-
-1-It is a type of collection where the element are process fifo order .
-2-The queue element are not index base .
-3-The queue doesnot allow null .
-4-Queue allows dublicate element .
-5-Queue ia a unoreder collection . 
-
-7:Queue
-1-it followthe rull of first in first out .
-2-it s not in order .
-3-it dosnot allow null .
-4-it is not index base .
-5-it allow dublicate element .
-
-8:Queue interface:-
-1-The Queue interface is a child of collection interface.
-2-The queue interfcae specify the standad operation that can perform any type of queue .
-3-The method of queue 
-   1-public boolean ofter(object element);
-   2-public object remove();
-   3-public object poll();
-   4-public object element();
-   5-public object peek();
+Role of start method
+1-an auctuall thret is created in memory only when we call the start method
+2-The start method we call the start method task 1-register threat with jvm
+                                                 2-Allocate resource for threat 
+                                                 3-Internall call run method 
 

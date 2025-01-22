@@ -1,0 +1,4 @@
+1-A java beean class is a example of 100% abstraction all the datameber present her is private .
+2-object of javabean class use to perform transfrom the data from one layer to anthor layer .
+3-it is previously know as pojo class.
+4-all the datameber must

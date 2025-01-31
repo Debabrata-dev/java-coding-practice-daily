@@ -1,0 +1,40 @@
+Collecton:-
+1-It represent the group of object in a single eneity is know as Collecton .
+2-It can be homomginus type and heteroginus type object all the group of object we can perform the follwing operation
+3-In collection we can perform addition division and updating the element .
+
+Collection framework:-
+1-Collection framework libray is a set of interface having and predefind classes .
+2-Collection framework libray is a collection of radymate datastructure .
+3-Collection framework is avalable in java.util package .
+4-It is build by using abstraction and standalization .
+5-The collection framework is contant set of interface 1-List 2-Queue 3-Set 4-Iterable 5-Collection 6-Map 7-Sortedset 8-Navigatable 9-Sortedmap 10-Navigatable 11-Iterator 12-ListIterator 
+
+Impletion class:-
+1-ArrayList        
+2-Vector
+3-LinkedList
+
+
+
+
+
+HelerMethod:-
+1-Public Iterator iterator();
+2-Public ListIterator listIterator();
+
+Iterable Interface:-
+1-Public Iterator iterator();
+Collection Method:-
+1-public boolean add(Object element);
+2-public boolean isEmpty();
+3-public int size();
+4-public boolean remove();
+5-public boolean contant();
+6-public void clear();
+7-public object toArray();
+8-public boolean addAll(collection c);
+9-public boolean removeAll(collection c);
+10-public boolean retainAll(collection c);
+11-public boolean contantAll(collection c);
+

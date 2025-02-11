@@ -1,0 +1,11 @@
+body{
+	
+	background: linear-gradient(135deg,#153677,#4e085f);
+	color:white;
+	font-family: 'Poppins',sans-serif;
+	size: cover;
+}
+form{
+	height:200px; 
+}
+

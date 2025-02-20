@@ -1,0 +1,54 @@
+1-Introduction
+Serilization And Deserializaton
+JDBC
+ORM
+-----EJBs-Entity Beans
+--JPA
+---Hibernate
+---
+
+2-Steps to prepare Hibernate Applications:-
+  .POJO Class /Persistence Class
+  .Hibernate Mapping File
+  .Hibernate Configuration File
+  .Client Appl
+3-Hibernate Applications:
+  -Core Java<------->Hibernate
+  -GUI Appi<-------->Hibernate
+  -Servlet<-------->Hibernate
+4-Hibernate Code Genration Tools:-
+  -Schema Export
+  -Schema Update
+  -Code Genaration
+
+5-Hibernate Primary Key Genration Algorithm    
+
+6-Hibernate Connection Pooling
+(it is use to improve the connection )
+
+
+7-Hibernate Transaction Management:
+ ACID properties
+ Automicity -->
+
+8-HQL[Hibernate Query Language]
+
+9-Native Sql
+
+10-Criterion Api(100% java)
+
+11-Hibernate Mappings
+  1-Basic Or Mapping
+  2-Componets Mapping
+  3-Inheritance Mapping
+  4-Association Mapping
+
+
+12.Hibernate Filters
+
+13.Cache machanism
+   1-Cache
+   2-Cache
+
+14:-Hibernate 5.x features
+IDE:E

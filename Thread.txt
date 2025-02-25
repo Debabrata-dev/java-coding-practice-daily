@@ -1,0 +1,12 @@
+1-A thread it is light weight process the programm or application take lass amount of system recseurose .
+2-Thread concept is the one and only in which the programm can perfrom multitasking at the programming level .
+3-The main goal of multitasking is is two imporve the speed .
+
+Defualt Threat in java:-
+1-when ever java program begian excution the jvm internally create the following 3 thread 1-MAIN Thread
+                                                                                          2-Demoan Thread-1-Thread schedular
+                                                                                                          2-Garbage collector
+
+2-The main thread is resposible for exctuion of code writen by the programer
+3-The thread schedular is responsible for the manage life cyle of all thread in java.
+4-the Garbage collector is responsible for memory management

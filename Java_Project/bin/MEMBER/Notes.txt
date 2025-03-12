@@ -1,0 +1,26 @@
+MEMEBER:-
+1-Any variable or method which declare directly in the class body is called as Member .
+2-Member are classify into 2 type 1-Date member
+                                  2-Member Function
+                                  
+3-DataMember and Member function are classify into 2 type . 1-static member
+                                                            2-Non Static Member
+
+1-Static member are declare with static keyword .
+2-static member can be access using the class name .
+
+NonStatic:-
+1-Non static member without using static keyword  .
+2-The Non-static member can be access by creating an object .
+
+class:-
+It is definition block used to define state and behavious of an object 
+
+object :-An object it is a real world entity the have it s own state and behaviours .
+
+Refrance varibale:-
+Any variable that is declare using nonpremitive data type is called as refrace variable .
+a refranec varible genrally classfy in to type 1-class name 2-interface name
+3-Enum-name
+
+1-

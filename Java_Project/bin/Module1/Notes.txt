@@ -1,0 +1,2 @@
+Enum-it is a special type of data type that is fixed constant
+Null-it is the defualt value of all the refrance variable

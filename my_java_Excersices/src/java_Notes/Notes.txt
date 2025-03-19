@@ -1,0 +1,22 @@
+1-AnyVariable that is declare using Nonpremitive datatype is called as Refrance varible
+2-refrance variable genrally declare using 1-class name 2-interface name 3 enum name
+3-refrance variable can store either address of an object or null values .
+JVM makes following area 1-Class Area
+                         2-Heap Area 
+                         3-Method Area 
+                         4-Stack Area
+Class Area:-
+All static member are allocate to the memory in class area 
+The static member are allocate by class loader 
+The static member are loaded during class loading time  .
+The static member are allocate to the memory only once .
+The class area is know as static poll .
+
+Heap Area:-
+All object are create in java in heap area .
+The non static member are loaded in heap area .
+The non static member are allocate to memory during object creation .  
+In heap area the object are not store in Sequenceal manner . 
+Each time we create an object of non-static 
+ 
+                    
